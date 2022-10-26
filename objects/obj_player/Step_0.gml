@@ -29,5 +29,5 @@ if(global.can_move){
 if !right and !left and !up and !down{
 image_index = 0
 }else{
-image_index =0
+image_speed = 1
 }

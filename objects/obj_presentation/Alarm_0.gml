@@ -7,11 +7,6 @@ if image_index >= image_number-1{
 	if act = 0{
 		act++
 		alarm[0] = 200
-		image_index++
-	}
-	else if act = 1{
-		act++
-		alarm[0] = 200
 		audio_play_sound(snd_crowd_clap, 10, false)
 	}else{
 		room_goto_next()
