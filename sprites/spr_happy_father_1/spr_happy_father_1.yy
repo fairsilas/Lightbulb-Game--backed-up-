@@ -342,8 +342,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"4ed87b18-9c5f-457f-9a5c-d28e65ba06e3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "intro",
+    "path": "folders/Sprites/intro.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_happy_father_1",

@@ -1,4 +1,5 @@
-spd = 2
+spd = 1.5 // the max speed of the player
+view_speed = 100 // higher number = slower 
 global.can_move = true
 
 

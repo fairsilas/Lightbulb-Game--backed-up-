@@ -88,8 +88,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f167f95a-cb89-4c6f-b426-04a9a74b56fe","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "intro",
+    "path": "folders/Sprites/intro.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fred_presentation",

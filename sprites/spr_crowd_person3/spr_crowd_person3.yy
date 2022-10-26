@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6ca17e19-8ecf-40ae-9d60-5d70b2ecc245","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "intro",
+    "path": "folders/Sprites/intro.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_crowd_person3",

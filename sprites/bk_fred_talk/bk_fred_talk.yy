@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ac758bfd-eab4-4751-960d-5a64b2f4f890","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "intro",
+    "path": "folders/Sprites/intro.yy",
   },
   "resourceVersion": "1.0",
   "name": "bk_fred_talk",
