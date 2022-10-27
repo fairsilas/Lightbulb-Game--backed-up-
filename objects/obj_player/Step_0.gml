@@ -28,11 +28,15 @@ if(global.can_move){
 	}
 
 
-	//when to animate
+	//when to animate and make footstep sounds
 	if !right and !left and !up and !down{
-	image_index = 0
+		image_index = 0
+		audio_stop_sound(snd_footsteps)
 	}else{
-	image_speed = 1
+		if !audio_is_playing(snd_footsteps){
+			audio_play_sound(snd_footsteps, 10, false)
+		}
+		image_speed = 1
 	}
 }
 
@@ -49,5 +53,12 @@ if (sprite_index = spr_p_change_bulb) and (image_index >= image_number-1){
 	sprite_index = spr_p_up
 	with(instance_nearest(x,y,obj_lamp)){
 		image_index ++
+	}
+}
+
+//show when lamp job is done
+if instance_exists(obj_lamp){
+	if (obj_lamp.has_bulb = false){
+		draw_sprite(spr_job_light,0,10,10)
 	}
 }

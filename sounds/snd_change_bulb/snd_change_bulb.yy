@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_crowd_clap",
+  "name": "snd_change_bulb",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_crowd_clap.mp3",
-  "duration": 20.424,
+  "soundFile": "snd_change_bulb.wav",
+  "duration": 0.945601,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

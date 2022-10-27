@@ -3,3 +3,4 @@ view_speed = 100 // higher number = slower
 global.can_move = true
 
 
+
