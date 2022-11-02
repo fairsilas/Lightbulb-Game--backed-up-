@@ -28,6 +28,7 @@
     {"id":{"name":"spr_crowd_person3","path":"sprites/spr_crowd_person3/spr_crowd_person3.yy",},"order":5,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":5,},
     {"id":{"name":"spr_painting","path":"sprites/spr_painting/spr_painting.yy",},"order":4,},
+    {"id":{"name":"obj_small_table","path":"objects/obj_small_table/obj_small_table.yy",},"order":13,},
     {"id":{"name":"spr_p_left","path":"sprites/spr_p_left/spr_p_left.yy",},"order":3,},
     {"id":{"name":"bk_christmas_fireplace_1","path":"sprites/bk_christmas_fireplace_1/bk_christmas_fireplace_1.yy",},"order":1,},
     {"id":{"name":"obj_fred_talk_speaker","path":"objects/obj_fred_talk_speaker/obj_fred_talk_speaker.yy",},"order":2,},
@@ -41,6 +42,10 @@
     {"id":{"name":"obj_job_light","path":"objects/obj_job_light/obj_job_light.yy",},"order":10,},
     {"id":{"name":"bk_christmas_fireplace","path":"sprites/bk_christmas_fireplace/bk_christmas_fireplace.yy",},"order":0,},
     {"id":{"name":"spr_p_change_bulb","path":"sprites/spr_p_change_bulb/spr_p_change_bulb.yy",},"order":10,},
+    {"id":{"name":"obj_comfy_couch","path":"objects/obj_comfy_couch/obj_comfy_couch.yy",},"order":11,},
+    {"id":{"name":"spr_small_table","path":"sprites/spr_small_table/spr_small_table.yy",},"order":14,},
+    {"id":{"name":"obj_diolog_and_sub","path":"objects/obj_diolog_and_sub/obj_diolog_and_sub.yy",},"order":12,},
+    {"id":{"name":"spr_comfy_couch","path":"sprites/spr_comfy_couch/spr_comfy_couch.yy",},"order":13,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
