@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_darkness",
   "spriteId": {
-    "name": "Sprite26",
-    "path": "sprites/Sprite26/Sprite26.yy",
+    "name": "spr_black_square",
+    "path": "sprites/spr_black_square/spr_black_square.yy",
   },
   "solid": false,
   "visible": true,

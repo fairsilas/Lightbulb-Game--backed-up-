@@ -53,6 +53,7 @@ if (sprite_index = spr_p_change_bulb) and (image_index >= image_number-1){
 	sprite_index = spr_p_up
 	with(instance_nearest(x,y,obj_lamp)){
 		image_index ++
+		obj_darkness.alpha -=(obj_darkness.alpha_start/instance_number(self.object_index))
 	}
 }
 

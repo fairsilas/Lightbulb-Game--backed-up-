@@ -1,3 +1,7 @@
+draw_set_color(c_white)
+draw_set_font(font_1)
+
+v = view_camera[0]
 
 	if !audio_is_playing(snd){
 		
@@ -8,7 +12,7 @@
 			audio_play_sound(snd, 10, false)
 		}
 	}else{
-		text_pos-= string_length(txt)/(audio_sound_length(snd)*8)
-			draw_text(camera_get_view_x(view_camera[0])+text_pos,camera_get_view_y(view_camera[0]),txt)
+		text_pos-= string_length(txt)/(audio_sound_length(snd)*8)// this line makes it scroll relative to audio length
+			draw_text(camera_get_view_x(v)+text_pos,camera_get_view_y(v)+camera_get_view_height(v)-40,txt)
 	}
 
