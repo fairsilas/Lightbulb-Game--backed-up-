@@ -7,6 +7,7 @@ v = view_camera[0]
 		
 		if (i = 1){
 			instance_destroy()
+			global.can_move = true
 		}else{
 			i = 1
 			audio_play_sound(snd, 10, false)

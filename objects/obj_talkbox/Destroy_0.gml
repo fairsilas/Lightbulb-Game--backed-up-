@@ -1,0 +1,1 @@
+global.can_move = true

@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_crowd_person",
   "spriteId": {
     "name": "spr_crowd_person1",
     "path": "sprites/spr_crowd_person1/spr_crowd_person1.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_crowd_person","path":"objects/obj_crowd_person/obj_crowd_person.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -29,8 +33,4 @@
     "name": "intro",
     "path": "folders/Objects/intro.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_crowd_person",
-  "tags": [],
-  "resourceType": "GMObject",
 }

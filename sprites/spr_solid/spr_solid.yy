@@ -17,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 32,
   "height": 32,
   "textureGroupId": {
@@ -67,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Lightbulb Robot Story",
-    "path": "Lightbulb Robot Story.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
 }

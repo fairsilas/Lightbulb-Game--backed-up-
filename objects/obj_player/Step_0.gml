@@ -41,11 +41,16 @@ if(global.can_move){
 }
 
 //change viewspeed
-var vx = camera_get_view_x(view_camera[0])
-var vy = camera_get_view_y(view_camera[0])
+var cam = view_camera[0]
+var vx = camera_get_view_x(cam)
+var vy = camera_get_view_y(cam)
+var width = camera_get_view_width(cam)
+var height = camera_get_view_height(cam)
 var vx_spd = distance_to_point(vx,y)/view_speed
 var vy_spd = distance_to_point(x,vy)/view_speed
-camera_set_view_speed(view_camera[0], vx_spd,vy_spd)
+camera_set_view_speed(cam, vx_spd,vy_spd)
+camera_set_view_size(cam, width*view_size_mult, height*view_size_mult)
+//view_size_mult -= view_size_mult*.000000001
 
 //change bulb
 if (sprite_index = spr_p_change_bulb) and (image_index >= image_number-1){
@@ -53,13 +58,9 @@ if (sprite_index = spr_p_change_bulb) and (image_index >= image_number-1){
 	sprite_index = spr_p_up
 	with(instance_nearest(x,y,obj_lamp)){
 		image_index ++
+		if !audio_is_playing(snd_light){
+			audio_play_sound(snd_light, 10, true)
+		}
 		obj_darkness.alpha -=(obj_darkness.alpha_start/instance_number(self.object_index))
-	}
-}
-
-//show when lamp job is done
-if instance_exists(obj_lamp){
-	if (obj_lamp.has_bulb = false){
-		draw_sprite(spr_job_light,0,10,10)
 	}
 }
