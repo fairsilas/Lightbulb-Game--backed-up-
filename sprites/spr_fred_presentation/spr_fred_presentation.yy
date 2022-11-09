@@ -17,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 256,
   "height": 128,
   "textureGroupId": {
@@ -40,7 +41,7 @@
     "name": "spr_fred_presentation",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 0.0,
+    "playbackSpeed": 0.2,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

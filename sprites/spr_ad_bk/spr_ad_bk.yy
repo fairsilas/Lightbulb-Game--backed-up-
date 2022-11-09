@@ -17,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 600,
   "height": 500,
   "textureGroupId": {
@@ -39,7 +40,7 @@
     "name": "spr_ad_bk",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 1.0,
+    "playbackSpeed": 0.5,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
