@@ -1,4 +1,5 @@
 act = 0;
+global.has_seen_tv_ad = false
 depth = -y
 image_speed= 0
 

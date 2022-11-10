@@ -1,0 +1,1 @@
+global.has_seen_tv_ad = true

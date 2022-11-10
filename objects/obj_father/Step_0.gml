@@ -16,8 +16,18 @@ if (act = 1){
 	}
 }
 
-if (act = 2){
-
+if (act = 2)and (global.has_seen_tv_ad = true){
+	act ++
+	alarm[0] = 40 // delay
+}
+if (act = 4){
+	x = obj_tv.x-50
+	y = obj_tv.y-12
+	sprite_index = spr_father
+	dialog = instance_create_depth(x,y,-1000,obj_talkbox)
+	dialog.txt = "Wowza! I need to get my hands on the new Bulb Man 3000!"
+	dialog.snd = snd_man;
+	act++
 }
 
 //animate talking

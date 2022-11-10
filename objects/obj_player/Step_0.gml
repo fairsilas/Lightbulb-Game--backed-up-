@@ -57,6 +57,7 @@ if (sprite_index = spr_p_change_bulb) and (image_index >= image_number-1){
 	global.can_move = true
 	sprite_index = spr_p_up
 	with(instance_nearest(x,y,obj_lamp)){
+		has_bulb = true
 		image_index ++
 		if !audio_is_playing(snd_light){
 			audio_play_sound(snd_light, 10, true)
