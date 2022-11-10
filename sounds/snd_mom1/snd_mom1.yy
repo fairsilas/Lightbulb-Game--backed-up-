@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_son_talk1",
+  "name": "snd_mom1",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_son_talk1.wav",
-  "duration": 4.725261,
+  "soundFile": "snd_mom1.wav",
+  "duration": 3.254308,
   "parent": {
     "name": "DUB",
     "path": "folders/Sounds/DUB.yy",

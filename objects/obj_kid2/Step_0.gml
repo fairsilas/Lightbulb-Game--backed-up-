@@ -7,12 +7,12 @@ else if (distance_to_object(obj_player) < 120) and (alarm[0] <=0){
 		if (distance_to_object(obj_player) < 15){
 			if !instance_exists(obj_talkbox){
 				dialog = instance_create_depth(x,y,-1000,obj_talkbox)
-				dialog.txt = "Watch this! Look at me look watch look! Watch this look, look at me!"
+				dialog.txt = "Hey, Hey look at me look look at me hey! Eh!"
 				dialog.snd = snd_daughter_talk1;
 			}
 			speed = 0
 			alarm[0] = 300
-			alarm[1] = 60
+			alarm[1] = 120
 			sprite_index = spr_kid2
 		}else if !collision_line(x,y, obj_player.x,obj_player.y,obj_solid,true,true){
 			move_towards_point(obj_player.x,obj_player.y, 1)
