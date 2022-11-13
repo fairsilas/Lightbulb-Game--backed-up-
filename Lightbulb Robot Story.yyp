@@ -53,6 +53,7 @@
     {"id":{"name":"obj_fred_talk_speaker","path":"objects/obj_fred_talk_speaker/obj_fred_talk_speaker.yy",},"order":2,},
     {"id":{"name":"rm_fred_talk","path":"rooms/rm_fred_talk/rm_fred_talk.yy",},"order":1,},
     {"id":{"name":"spr_loading_update","path":"sprites/spr_loading_update/spr_loading_update.yy",},"order":15,},
+    {"id":{"name":"spr_mother","path":"sprites/spr_mother/spr_mother.yy",},"order":28,},
     {"id":{"name":"snd_son_talk1","path":"sounds/snd_son_talk1/snd_son_talk1.yy",},"order":2,},
     {"id":{"name":"snd_mom2","path":"sounds/snd_mom2/snd_mom2.yy",},"order":5,},
     {"id":{"name":"spr_fred_presentation","path":"sprites/spr_fred_presentation/spr_fred_presentation.yy",},"order":7,},
