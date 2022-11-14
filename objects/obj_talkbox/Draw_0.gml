@@ -13,6 +13,11 @@ v = view_camera[0]
 			audio_play_sound(snd, 10, false)
 		}
 	}else{
+		if string_length(txt) < 20*8{
+			text_scroll_rate = 1
+		}else{
+		text_scroll_rate = string_length(txt)/(audio_sound_length(snd)*8)
+		}
 		text_pos-= string_length(txt)/(audio_sound_length(snd)*8)// this line makes it scroll relative to audio length
 			draw_text(camera_get_view_x(v)+text_pos,camera_get_view_y(v)+camera_get_view_height(v)-40,txt)
 	}

@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_daughter_talk1.wav",
-  "duration": 4.365351,
+  "duration": 3.085669,
   "parent": {
     "name": "DUB",
     "path": "folders/Sounds/DUB.yy",

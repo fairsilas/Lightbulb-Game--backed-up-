@@ -17,7 +17,7 @@
   "soundFile": "snd_man1.mp3",
   "duration": 0.365714,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "DUB",
+    "path": "folders/Sounds/DUB.yy",
   },
 }
