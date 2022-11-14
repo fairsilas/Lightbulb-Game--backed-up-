@@ -2,7 +2,7 @@ if (act = 0){
 	
 	if (distance_to_object(obj_player) < 30){
 		dialog = instance_create_depth(x,y,-1000,obj_talkbox)
-		dialog.txt = "Ok Bulb Boy, change bulbs those."
+		dialog.txt = "Ok Bulb Boy, change those bulbs please."
 		dialog.snd = snd_man2;
 		act++
 	}
@@ -26,7 +26,7 @@ if (act = 4){
 	y = obj_tv.y-12
 	sprite_index = spr_father_excited
 	dialog = instance_create_depth(x,y,-1000,obj_talkbox)
-	dialog.txt = "Wowza! I need to get my hands on the new Bulb Man 3000!"
+	dialog.txt = "Wowza! I need to get my hands on the new Bulb Man 3000. Bulb Boy, go wait outside for the trade in."
 	dialog.snd = snd_man4;
 	act++
 }

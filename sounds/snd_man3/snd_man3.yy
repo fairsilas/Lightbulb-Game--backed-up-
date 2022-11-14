@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_man3.wav",
-  "duration": 0.222653,
+  "duration": 6.725692,
   "parent": {
     "name": "DUB",
     "path": "folders/Sounds/DUB.yy",

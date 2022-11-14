@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_bulb_man.mp3",
-  "duration": 0.365714,
+  "soundFile": "snd_bulb_man.wav",
+  "duration": 24.883696,
   "parent": {
     "name": "DUB",
     "path": "folders/Sounds/DUB.yy",
