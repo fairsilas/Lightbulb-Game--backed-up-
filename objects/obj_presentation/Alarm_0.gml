@@ -1,2 +1,2 @@
-room_goto_next()
-audio_stop_all()
+alarm[1] = 18*60
+image_index++

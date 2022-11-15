@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_fred_talk.mp3",
-  "duration": 0.365714,
+  "soundFile": "snd_fred_talk.wav",
+  "duration": 127.61168,
   "parent": {
     "name": "DUB",
     "path": "folders/Sounds/DUB.yy",

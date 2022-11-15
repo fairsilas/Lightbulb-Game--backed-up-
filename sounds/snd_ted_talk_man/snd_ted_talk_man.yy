@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_ted_talk_man.wav",
-  "duration": 24.883696,
+  "duration": 127.61168,
   "parent": {
     "name": "DUB",
     "path": "folders/Sounds/DUB.yy",
