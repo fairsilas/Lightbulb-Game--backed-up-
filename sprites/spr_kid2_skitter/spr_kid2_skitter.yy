@@ -17,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 67,
   "height": 76,
   "textureGroupId": {
@@ -74,7 +75,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "household",
+    "path": "folders/Sprites/household.yy",
   },
 }

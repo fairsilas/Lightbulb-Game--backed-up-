@@ -1,2 +1,2 @@
-alarm[5] = 12*60
+alarm[5] = 16*60
 image_index++

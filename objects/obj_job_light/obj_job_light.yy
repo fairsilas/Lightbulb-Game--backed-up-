@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_job_light",
-  "spriteId": {
-    "name": "spr_job_light",
-    "path": "sprites/spr_job_light/spr_job_light.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
