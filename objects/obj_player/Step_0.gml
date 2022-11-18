@@ -6,6 +6,7 @@ var left = (keyboard_check(vk_left)or keyboard_check(ord("A")))and!place_meeting
 var right =( keyboard_check(vk_right)or keyboard_check(ord("D")))and!place_meeting(x+spd,y,obj_solid)
 
 // movement code
+if dead!= true{
 if(global.can_move){
 	if(up){
 		y-=spd	
@@ -63,5 +64,21 @@ if (sprite_index = spr_p_change_bulb) and (image_index >= image_number-1){
 			audio_play_sound(snd_light, 10, true)
 		}
 		obj_darkness.alpha -=(obj_darkness.alpha_start/instance_number(self.object_index))
+	}
+}
+}else{// if dead true
+	if (sprite_index!= spr_p_die_right) and (sprite_index!= spr_p_die_left){
+		audio_play_sound(snd_car_crash,10,false)
+		if (instance_nearest(x,y,obj_car).x > x){
+			sprite_index	= spr_p_die_right
+		}else{
+			sprite_index	= spr_p_die_left
+		}
+	}
+	obj_darkness.alpha +=0.01
+	if (obj_darkness.alpha > 1){
+		
+		audio_stop_all()
+		room_restart()	
 	}
 }
