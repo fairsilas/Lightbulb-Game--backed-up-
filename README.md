@@ -1,6 +1,9 @@
-# Lightbulb-Game--backed-up-
+# Lightbulb-Game
 
-In this game, players control a small robot tasked with changing lightbulbs. The game aims to demonstrate the concept of inverse planned obsolescence, where an object that would normally have a limited lifespan is made more durable.
+![image](https://user-images.githubusercontent.com/78548914/214599654-5542527b-ac91-42e1-b569-9b065bf4f5ab.png)
+![image](https://user-images.githubusercontent.com/78548914/214600534-dc3c092c-ea4e-4120-9be7-3d8ca52bfb3e.png)
+
+In this game, players control a small robot tasked with changing lightbulbs. The game is started with the prompt "reverse planned obsolescence," where an object that would normally have a limited lifespan is made more durable.
 
 The game begins with a Ted talk introducing the robot and a short animation showing a family receiving their new robot. The tutorial then follows the player's character as it is replaced by a newer model and sent to a landfill. However, the player's character escapes by rebuilding itself using old robot parts and has the option to choose from four different paths:
 
